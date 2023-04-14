@@ -6,8 +6,8 @@ import numpy as np
 
 import pandas as pd
 
-df_consumidor = pd.read_csv('TA_PRECO_MEDICAMENTO_1.CSV',sep=';',encoding='ISO-8859-1')
-df_governo = pd.read_csv('TA_PRECO_MEDICAMENTO_GOV.CSV',sep=';',encoding='ISO-8859-1')
+df_consumidor = pd.read_csv('yanlucasgs/exercicio-aeda/main/TA_PRECO_MEDICAMENTO_1.CSV',sep=';',encoding='ISO-8859-1')
+df_governo = pd.read_csv('yanlucasgs/exercicio-aeda/main/TA_PRECO_MEDICAMENTO_GOV.CSV',sep=';',encoding='ISO-8859-1')
 
 st.set_page_config(page_title='App AEDA',page_icon="bar_chart:")
 
